@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "characters": [
+    { "id": "gemini-cat", "name": "星猫 · 日常", "file": "gemini-cat-idle.png" },
+    { "id": "gemini-cat-proud", "name": "星猫 · 得意", "file": "gemini-cat-proud.png" },
+    { "id": "gemini-cat-sad", "name": "星猫 · 委屈", "file": "gemini-cat-sad.png" }
+  ]
+}

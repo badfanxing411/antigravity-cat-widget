@@ -1,0 +1,17 @@
+{
+  "name": "antigravity-cat-usage",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Antigravity 星语猫娘桌面额度挂件（Windows 原生 WPF 轻量化架构）",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "test:windows": "powershell.exe -NoProfile -STA -ExecutionPolicy Bypass -File tests/verify-windows.ps1",
+    "check:quota": "node runtime/detect-quota.mjs",
+    "package": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File ../scripts/build-release.ps1"
+  }
+}
